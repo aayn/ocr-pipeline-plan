@@ -52,3 +52,6 @@ architecture. WDN has the following components that need to be tweaked:
 
 ## Week 9 (24 July - 30 July)
   * Buffer.
+
+## Week 9.5 (31 July - 3 August)
+  * Buffer.

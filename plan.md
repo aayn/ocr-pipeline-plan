@@ -26,6 +26,7 @@ architecture. WDN has the following components that need to be tweaked:
 
 ## Week 2 (5 June - 11 June)
   * Continue refining WDN.
+  * Possible refinements: batch normalisation, dropout, trying different architectures for the CNN stack (like GoogLeNet, or ResNets).  
 
 
 ## Week 3 (12 June - 18 June)

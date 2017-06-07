@@ -3,7 +3,7 @@
 
 ---
 ## Goal
-To have an end-to-end system that can find and extract from images.
+To have an end-to-end system that can find and extract text from images.
 
 ---
 ## Pipeline Overview

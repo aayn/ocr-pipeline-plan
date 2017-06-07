@@ -14,7 +14,7 @@ To have an end-to-end system that can find and extract from images.
 ---
 ### Word Deep Net  
 
-<img src="wdn.png" alt="Drawing" style="width: 200px; height: 400px"/>
+<img src="wdn.png" alt="Drawing" style="width: auto; height: 400px"/>
 
 
 ---

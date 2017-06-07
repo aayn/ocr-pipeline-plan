@@ -16,7 +16,6 @@ To build an end-to-end system that can find and extract text from images.
 
 <img src="wdn.png" alt="Drawing" style="width: auto; height: 450px"/>
 
-
 ---
 - [ ] **Single Word Accuracy**
   - [x] Large dataset - 9M images Oxford MJSynth dataset
@@ -28,7 +27,7 @@ To build an end-to-end system that can find and extract text from images.
 ---
 
   - [x] Batch normalization added to above architecture.
-    - Considerable performance improvement, accuracy ~35% by training after training on ~10% of the samples.
+    - Considerable performance improvement, accuracy ~35% after training on ~10% of the samples.
   - [ ] Dropout
   - [ ] Colour/B&W images
   - [ ] Trying various architectures for the CNN stack
@@ -49,7 +48,10 @@ To build an end-to-end system that can find and extract text from images.
 
 - [ ] **Word Detector**
   - [ ] Maximally Stable Extermal Regions (MSER)
-    - Implementation in opencv  
+    - Implementation in opencv
+  - [ ] Detected regions split into single words
+
+---
 
 ### Integration
 
@@ -61,4 +63,4 @@ To build an end-to-end system that can find and extract text from images.
       - If low confidence, ignore result
       - If medium confidence, consult lexicon on the most probable match
 
-
+---

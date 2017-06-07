@@ -22,7 +22,7 @@ To build an end-to-end system that can find and extract text from images.
   - [x] Large dataset - 9M images Oxford MJSynth dataset
   - [x] Code to generate synthetic images
   - [ ] Experiments on the WDN (using Jupyter Notebooks)
-    - [x] Regular architecture, based on the Keras example.
+    - [x] Regular architecture, based on the Keras example
       - Trained on ~20% of the samples, performance plateaus at ~7% accuracy.
 
 ---
@@ -56,6 +56,9 @@ To build an end-to-end system that can find and extract text from images.
 - [ ] **Integration of WDN and Word Detector**
   - [ ] Training and testing on the whole system
   - Possible tweaks
-    - A confidence measure
+    - A confidence measure of the final output
+      - If high confidence, report result
+      - If low confidence, ignore result
+      - If medium confidence, consult lexicon on the most probable match
 
 

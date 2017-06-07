@@ -26,16 +26,16 @@ To have an end-to-end system that can find and extract from images.
 
 ---
 
-    - [x] Batch normalization added to above architecture.
-      - Considerable performance improvement, accuracy ~35% by training after training on ~10% of the samples.
-    - [ ] Dropout
-    - [ ] Colour/B&W images
-    - [ ] Trying various architectures for the CNN stack
-      - [ ] ResNet
-      - [ ] InceptionNet
-      - [ ] Combinations and Ensembles
-    - [ ] Variable sized images using Spatial Pyramid Pooling (SPP)
-      - Dropbox had an issue with longer words as they had a constant size WDN.
+  - [x] Batch normalization added to above architecture.
+    - Considerable performance improvement, accuracy ~35% by training after training on ~10% of the samples.
+  - [ ] Dropout
+  - [ ] Colour/B&W images
+  - [ ] Trying various architectures for the CNN stack
+    - [ ] ResNet
+    - [ ] InceptionNet
+    - [ ] Combinations and Ensembles
+  - [ ] Variable sized images using Spatial Pyramid Pooling (SPP)
+    - Dropbox had an issue with longer words as they had a constant size WDN.
   - [ ] Further train and test on synthetic images
     - [ ] Two word, three word
     - Suggestions?  

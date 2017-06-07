@@ -18,15 +18,15 @@ To build an end-to-end system that can find and extract text from images.
 
 ---
 - [ ] **Single Word Accuracy**
-  - [x] Large dataset - 9M images Oxford MJSynth dataset
-  - [x] Code to generate synthetic images
+  - [√] Large dataset - 9M images Oxford MJSynth dataset
+  - [√] Code to generate synthetic images
   - [ ] Experiments on the WDN (using Jupyter Notebooks)
-    - [x] Regular architecture, based on the Keras example
+    - [√] Regular architecture, based on the Keras example
       - Trained on ~20% of the samples, performance plateaus at ~7% accuracy.
 
 ---
 
-  - [x] Batch normalization added to above architecture.
+  - [√] Batch normalization added to above architecture.
     - Considerable performance improvement, accuracy ~35% after training on ~10% of the samples.
   - [ ] Dropout
   - [ ] Colour/B&W images
@@ -40,7 +40,7 @@ To build an end-to-end system that can find and extract text from images.
   - [ ] Variable sized images using Spatial Pyramid Pooling (SPP)
     - Dropbox had an issue with longer words as they had a constant size WDN.
   - [ ] Further train and test on synthetic images
-    - [ ] Two word, three word
+    - [ ] Two word, three word?
     - Suggestions?  
 
 ---

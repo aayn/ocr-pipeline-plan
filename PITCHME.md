@@ -21,7 +21,7 @@ To build an end-to-end system that can find and extract text from images.
   - [√] Large dataset - 9M images Oxford MJSynth dataset
   - [√] Code to generate synthetic images
   - [ ] Experiments on the WDN (using Jupyter Notebooks)
-    - [√] Regular architecture, based on the Keras example
+    - [√] Starting point, architecture based on a Keras example 
       - Trained on ~20% of the samples, performance plateaus at ~7% accuracy.
 
 ---
@@ -64,3 +64,7 @@ To build an end-to-end system that can find and extract text from images.
       - If medium confidence, consult lexicon on the most probable match
 
 ---
+  
+  
+### Thank You
+

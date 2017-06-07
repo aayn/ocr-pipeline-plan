@@ -22,12 +22,12 @@ To build an end-to-end system that can find and extract text from images.
   - [√] Code to generate synthetic images
   - [ ] Experiments on the WDN (using Jupyter Notebooks)
     - [√] Starting point, architecture based on a Keras example 
-      - Trained on ~20% of the samples, performance plateaus at ~7% accuracy.
+      - Trained on ~20% of the samples, performance plateaus at ~7% accuracy
 
 ---
 
   - [√] Batch normalization added to above architecture.
-    - Considerable performance improvement, accuracy ~35% after training on ~10% of the samples.
+    - Considerable performance improvement, accuracy ~35% after training on ~10% of the samples
   - [ ] Dropout
   - [ ] Colour/B&W images
   - [ ] Trying various architectures for the CNN stack
@@ -38,10 +38,11 @@ To build an end-to-end system that can find and extract text from images.
 ---
 
   - [ ] Variable sized images using Spatial Pyramid Pooling (SPP)
-    - Dropbox had an issue with longer words as they had a constant size WDN.
-  - [ ] Further train and test on synthetic images
+    - Dropbox had an issue with longer words as they had a constant size WDN
+  - [ ] If needed, train and test on more synthetic images
+  - [ ] And on Real data from the domain where this is going to be used
     - [ ] Two word, three word?
-    - Suggestions?  
+  - Suggestions?  
 
 ---
 ### Word Detector  

@@ -1,4 +1,6 @@
-# Technical Walkthrough of the OCR Pipeline
+## Technical Walkthrough of the OCR Pipeline
+
+---
 
 ## Goal
 

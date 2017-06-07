@@ -3,7 +3,7 @@
 
 ---
 ## Goal
-To have an end-to-end system that can find and extract text from images.
+To build an end-to-end system that can find and extract text from images.
 
 ---
 ## Pipeline Overview
@@ -14,7 +14,7 @@ To have an end-to-end system that can find and extract text from images.
 ---
 ### Word Deep Net  
 
-<img src="wdn.png" alt="Drawing" style="width: auto; height: 400px"/>
+<img src="wdn.png" alt="Drawing" style="width: auto; height: 450px"/>
 
 
 ---

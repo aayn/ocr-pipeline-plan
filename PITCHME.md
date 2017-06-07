@@ -7,7 +7,7 @@ To build an end-to-end system that can find and extract text from images.
 
 ---
 ## Pipeline Overview
-![Dropbox Pipeline image](pipeline.png)
+![Dropbox Pipeline image](pipeline.jpg)
 
 ---
 ## Pipeline Modules

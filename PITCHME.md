@@ -2,8 +2,12 @@
 ### Technical Walkthrough of the OCR Pipeline
 
 ---
+### Goal
 
-## Goal
+To have an end-to-end system that can find and extract from images.
+---
+### Pipeline Overview
 
-To have an end-to-end system from
+![Dropbox Pipeline image](pipeline.png)
+
 ---

@@ -1,19 +1,21 @@
+---
 # Technical Walkthrough of the OCR Pipeline
-
+---
 ## Goal
-
 To have an end-to-end system that can find and extract from images.
 
+---
 ## Pipeline Overview
-
 ![Dropbox Pipeline image](pipeline.png)
 
+---
 ## Pipeline Modules
-
+---
 ### Word Deep Net  
 
-![Dropbox Pipeline image](wdn.png)
+![Dropbox Pipeline image](wdn.png)  
 
+---
 - [ ] **Single Word Accuracy**
   - [x] Large dataset - 9M images Oxford MJSynth dataset
   - [x] Code to generate synthetic images
@@ -33,7 +35,8 @@ To have an end-to-end system that can find and extract from images.
   - [ ] Further train and test on synthetic images
     - [ ] Two word, three word
     - Suggestions?  
-  
+---
+
 ### Word Detector  
 
 - [ ] **Word Detector**

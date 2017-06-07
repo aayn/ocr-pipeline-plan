@@ -1,5 +1,6 @@
 ---
 # Technical Walkthrough of the OCR Pipeline
+
 ---
 ## Goal
 To have an end-to-end system that can find and extract from images.
@@ -22,6 +23,9 @@ To have an end-to-end system that can find and extract from images.
   - [ ] Experiments on the WDN (using Jupyter Notebooks)
     - [x] Regular architecture, based on the Keras example.
       - Trained on ~20% of the samples, performance plateaus at ~7% accuracy.
+
+---
+
     - [x] Batch normalization added to above architecture.
       - Considerable performance improvement, accuracy ~35% by training after training on ~10% of the samples.
     - [ ] Dropout
@@ -35,8 +39,8 @@ To have an end-to-end system that can find and extract from images.
   - [ ] Further train and test on synthetic images
     - [ ] Two word, three word
     - Suggestions?  
----
 
+---
 ### Word Detector  
 
 - [ ] **Word Detector**

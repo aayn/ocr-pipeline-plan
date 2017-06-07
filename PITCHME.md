@@ -14,7 +14,8 @@ To have an end-to-end system that can find and extract from images.
 ---
 ### Word Deep Net  
 
-![Dropbox Pipeline image](wdn.png)  
+<img src="wdn.png" alt="Drawing" style="width: 200px; height: 400px"/>
+
 
 ---
 - [ ] **Single Word Accuracy**
@@ -34,6 +35,9 @@ To have an end-to-end system that can find and extract from images.
     - [ ] ResNet
     - [ ] InceptionNet
     - [ ] Combinations and Ensembles
+
+---
+
   - [ ] Variable sized images using Spatial Pyramid Pooling (SPP)
     - Dropbox had an issue with longer words as they had a constant size WDN.
   - [ ] Further train and test on synthetic images
